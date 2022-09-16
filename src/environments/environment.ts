@@ -16,7 +16,7 @@
 
 export const environment = {
   production: false,
-  authClientID: '419125973937-kl2cru5pu2vfugne7lr1hosgseh4lo1s.apps.googleusercontent.com',
+  authClientID: '497488104884-a8pch7erfs84au16ql1ctp55nhia9ce7.apps.googleusercontent.com',
   authScope: 'https://www.googleapis.com/auth/bigquery'
 };
 
