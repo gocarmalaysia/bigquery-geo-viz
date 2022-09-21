@@ -23,12 +23,11 @@ export const environment = {
 // Your web app's Firebase configuration
 // TODO(hormati): Create a different config for testing.
 export const firebaseConfig = {
-  apiKey: "AIzaSyDS8k-x7L9vZ_mvvdyTzwQ1LNXsYLNnhOM",
-  authDomain: "bigquerygeoviz.firebaseapp.com",
-  databaseURL: "https://bigquerygeoviz.firebaseio.com",
-  projectId: "bigquerygeoviz",
-  storageBucket: "bigquerygeoviz.appspot.com",
-  messagingSenderId: "419125973937",
-  appId: "1:419125973937:web:eba1c63d64b58be3ec2390",
-  measurementId: "G-FNH2K1BP5G"
+  apiKey: "AIzaSyCQYFECt8zfYFs_sIfBWZlX6TYhus-pYS0",
+  authDomain: "gocar-staging-917f5.firebaseapp.com",
+  databaseURL: "https://gocar-staging-917f5.firebaseio.com",
+  projectId: "gocar-staging-917f5",
+  storageBucket: "gocar-staging-917f5.appspot.com",
+  messagingSenderId: "523687922613",
+  appId: "1:523687922613:web:7cf1aec27b9ed4de1a27fc"
 };
