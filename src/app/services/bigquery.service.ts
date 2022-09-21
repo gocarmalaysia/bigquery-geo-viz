@@ -90,8 +90,9 @@ export class BigQueryService {
       .then(() => {
         gapi.client.init({
           clientId: environment.authClientID,
-          scope: environment.authScope
-        })
+          scope: environment.authScope,
+          plugin_name: 'chat'
+        } as any)
           .then(() => {
             gapi['auth2'].getAuthInstance().isSignedIn.listen(((isSignedIn) => {
               this.isSignedIn = isSignedIn;
@@ -99,6 +100,8 @@ export class BigQueryService {
             }));
             this.isSignedIn = !!gapi['auth2'].getAuthInstance().isSignedIn.get();
             this.signinChangeCallback();
+          }).catch(error => {
+            console.error(error);
           });
       });
   }
